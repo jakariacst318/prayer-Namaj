@@ -14,7 +14,7 @@ const ExpandableText = ({ title, text, colorClass, borderColor }) => {
       <p className="text-[10px] uppercase text-gray-400 font-bold tracking-tighter mb-1">
         {title}
       </p>
-      <p className={`text-sm md:text-base ${title === 'অনুবাদ' ? 'italic text-gray-600' : 'text-green-900 font-medium'}`}>
+      <p className={`text-sm md:text-base ${title === 'অনুবাদ' ? 'italic text-gray-600' : 'text-green-800 font-medium'}`}>
         {displayText}
         {shouldSlice && !isExpanded && "..."}
       </p>

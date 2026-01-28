@@ -75,7 +75,7 @@ const ContentCard = ({ item }) => (
   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-white p-6 rounded-3xl  border border-gray-200 shadow-xl/20">
     <h4 className="text-xl font-bold text-green-700 mb-3">{item.name}</h4>
     <p className="text-right text-green-900 font-serif text-2xl bg-green-50 p-4 rounded-xl mb-4 leading-loose">{item.arabic}</p>
-    <p className="text-gray-800 mb-2"><strong>উচ্চারণ:</strong> {item.pronunciation}</p>
+    <p className="text-gray-800 mb-2"><strong>উচ্চারণ:</strong > <span className="text-green-800"> {item.pronunciation} </span></p>
     <p className="text-gray-600 italic"><strong>অর্থ:</strong> {item.meaning}</p>
   </motion.div>
 );
